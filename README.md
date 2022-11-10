@@ -7,6 +7,8 @@ The client send an update signal to the ESP32(receiver at any location) via tele
 When message from telegram is received by the ESP32, ESP32 check version number in github and if there is a version change then esp32 take the bin file from github 
 location and update ESP32 with new firmware.
 
-
+cert.h -- The root CA certificate file.
+fw.bin -- the new firmware bin file.
+OTAUPDATETELEGRAM.ino -- program 
 
 
