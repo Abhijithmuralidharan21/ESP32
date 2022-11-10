@@ -1,6 +1,6 @@
 # ESP32 OTA UPDATE USING GITHUB AND TELEGRAM 
 
-/* The PROJECT is an OTA update for ESP32 from Github using telegram message */
+The PROJECT is an OTA update for ESP32 from Github using telegram message
 
 The client can update ESP32 by sending a message to telegram. After uploading the version number text file and bin file in github. 
 The client send an update signal to the ESP32(receiver at any location) via telegram. 
