@@ -22,7 +22,7 @@ int botRequestDelay = 1000;
 unsigned long lastTimeBotRan;
 
 String FirmwareVer = {
-  "7.0"
+  "5.0"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/fw.bin"
