@@ -6,12 +6,12 @@
 #include <ArduinoJson.h>
 #include <UniversalTelegramBot.h>
 
-const char * ssid = "TP-LINK";
-const char * wifiPassword = "";
+const char * ssid = "";//wifi name
+const char * wifiPassword = "";//wifi password
 
 int status = WL_IDLE_STATUS;
-#define BOTtoken "55174733:AAEiK3fDEz8xtz4COuikT0M"
-#define CHAT_ID "6590068"
+#define BOTtoken "55174733:AAEiK3fDEz8xtz4COuikT0M" //Telegram BOT token 
+#define CHAT_ID "6590068"//Chat ID from telegram for authorized user
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 #endif
@@ -24,8 +24,8 @@ unsigned long lastTimeBotRan;
 String FirmwareVer = {
   "5.0"
 };
-#define URL_fw_Version "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/version.txt"  ///Github URL for getting firmware version.
+#define URL_fw_Bin "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/fw.bin"          ///Github URL link for the "bin" file.
 
 
 void setup() {
