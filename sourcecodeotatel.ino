@@ -24,8 +24,8 @@ unsigned long lastTimeBotRan;
 String FirmwareVer = {
   "5.0"
 };
-#define URL_fw_Version "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/version.txt"  ///Github URL for getting firmware version.
-#define URL_fw_Bin "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32/Master/fw.bin"          ///Github URL link for the "bin" file.
+#define URL_fw_Version "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32_OTAUpdate_Telegram/Master/version.txt"  ///Github URL for getting firmware version.
+#define URL_fw_Bin "https://raw.githubusercontent.com/Abhijithmuralidharan21/ESP32_OTAUpdate_Telegram/Master/fw.bin"          ///Github URL link for the "bin" file.
 
 
 void setup() {
