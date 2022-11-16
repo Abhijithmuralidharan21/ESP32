@@ -7,9 +7,8 @@ The client send an update signal to the ESP32(receiver at any location) via tele
 When the ESP32 received a message in telegram , ESP32 check version number with the old build firmware and new firmware in the Github. If there is a version change then esp32 take the bin file from github location and update ESP32 with new firmware.
 
 cert.h -- The root CA certificate file.
-
 fw.bin -- The new firmware bin file.
-
+sourcecodeota.ino -- Source code
 
 
 
