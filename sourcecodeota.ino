@@ -10,8 +10,8 @@ const char * ssid = "";//wifi name
 const char * wifiPassword = "";//wifi password
 
 int status = WL_IDLE_STATUS;
-#define BOTtoken "55174733:AAEiK3fDEz8xtz4COuikT0M" //Telegram BOT token 
-#define CHAT_ID "6590068"//Chat ID from telegram for authorized user
+#define BOTtoken "55174733:AAEiK3fDEz8xtz5COuikT0M" //Telegram BOT token 
+#define CHAT_ID "6590868"//Chat ID from telegram for authorized user
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 #endif
